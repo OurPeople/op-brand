@@ -1,0 +1,261 @@
+@font-face
+  font-family: "MuseoRegular"
+  src: url('../font/MuseoSansRounded-300.oft')
+
+@font-face
+  font-family: "MuseoSemiBold"
+  src: url('../font/MuseoSansRounded-500.oft')
+
+@font-face
+  font-family: "MuseoBold"
+  src: url('../font/MuseoSansRounded-700.oft')
+
+    
+$font-reg: MuseoRegular, sans-serif
+
+$font-semi: MuseoSemiBold, sans-serif
+
+$font-bold: MuseoBold, sans-serif
+
+$primary-color: #284B52
+
+body
+  font: 100% $font-reg
+  color: $primary-color
+
+a
+    color: #E80D6D
+    font-family: $font-bold
+
+h1
+    font-family: $font-bold
+    font-size: 3em
+    margin: 50px 0
+
+
+h2
+    font-family: $font-semi
+
+typography span
+    display: block
+    text-align: center
+    font-size: 3em
+
+
+typography large-text-bold
+    font-family: $font-bold
+
+    
+typography large-text-semibold
+    font-family: $font-semi
+
+
+typography large-text-regular
+    font-family: $font-reg
+
+
+typography span.white
+    color: #fff
+    background-color: #D9D9D9
+
+
+description
+    Margin-bottom: 40px
+
+
+line 
+    width: 100%
+    height: 1px
+    border-bottom: 1px dashed #ddd
+    margin: 40px 0
+
+
+section logo
+    width: 15rem
+    height: 12rem
+    text-align: center
+
+
+section .logo img
+    margin: 20px
+
+
+section .logo.mono
+    background-color: #D9D9D9
+
+
+span.colours
+    width: 10rem
+    height: 10rem
+    padding: 10px
+    margin: 25px
+    text-align: center
+    font-size: 20px
+    border-radius: 10px
+    display: flex
+    justify-content: center
+    align-content: center
+    flex-direction: column
+
+
+.colours span
+    font-size: 14px
+    margin: 10px
+
+
+.brand-colour-pink
+    background-color: #E80D6D
+    color: white
+
+
+.brand-colour-teal
+    background-color: #0896AB
+    color: white
+
+
+.brand-colour-navy
+    background-color: #284B52
+    color: white
+
+
+.brand-colour-white
+    background-color: #fff
+    color: #284B52
+    border: 1px solid #e1e1e1
+
+
+.brand-colour-green
+    background-color: #B0CC3B
+    color: white
+
+
+.brand-colour-yellow
+    background-color: #FDC212
+    color: white
+
+.brand-colour-grey
+    background-color: #9B9B9B
+    color: white
+
+.brand-colour-grey-darker
+    background-color: #D9D9D9
+    color: white
+
+
+.brand-colour-grey-lighter
+    background-color: #EAEAEA
+    color: white
+    color: #284B52
+
+
+.brand-colour-status-green
+    background-color: #18A957
+    color: white
+
+.brand-colour-status-yellow
+    background-color: #FFBB38
+    color: white
+
+
+.brand-colour-status-red
+    background-color: #DF1642
+    color: white
+
+
+span.graphic
+    width: 15rem
+    height: 15rem
+    padding: 10px
+    margin: 25px
+    text-align: center
+    border-radius: 10px
+    display: flex
+    justify-content: center
+    align-content: center
+    flex-direction: column
+
+
+/*------------SIDRBAR STYLE----------*/
+
+#sidebar a
+    color: #E80D6D
+
+
+.wrapper 
+    display: flex
+    width: 100%
+    align-items: stretch
+
+
+#sidebar 
+    min-width: 250px
+    max-width: 250px
+    min-height: 100vh
+    transition: all 0.3s
+    
+
+
+#sidebar.active 
+    margin-left: -250px
+
+
+#sidebar-wrapper
+    position: sticky
+    position: -webkit-sticky
+    top: 0
+    height: 100vh
+    background: url(../images/sidebar_bg.svg) #EAEAEA no-repeat bottom left
+    background-size: 60%
+
+
+a[data-toggle="collapse"] 
+    position: relative
+
+
+.dropdown-toggle::after 
+    display: block
+    position: absolute
+    top: 50%
+    right: 20px
+    transform: translateY(-50%)
+
+
+p 
+    font-size: 1.1em
+    font-weight: 300
+    line-height: 1.7em
+
+
+#sidebar a, a:hover, a:focus 
+    color: #E80D6D
+    text-decoration: none
+    transition: all 0.3s
+
+
+#sidebar .sidebar-header 
+    padding: 20px
+
+
+#sidebar ul.components 
+    padding: 20px 0
+
+
+#sidebar ul p 
+    padding: 10px
+
+
+#sidebar ul li a 
+    padding: 10px 10px 10px 20px
+    font-size: 1.1em
+    display: block
+
+#sidebar ul li a:hover 
+    color: #FF65A9
+
+
+#sidebar ul li.active > a, a[aria-expanded="true"] 
+    font-family: $font-bold
+
+ul ul a 
+    font-size: 0.9em !important
+    padding-left: 30px !important
