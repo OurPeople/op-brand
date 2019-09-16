@@ -1,58 +1,63 @@
-@font-face
-  font-family: "MuseoRegular"
-  src: url('../font/MuseoSansRounded-300.oft')
+@font-face 
+    font-family: 'MuseoSansRounded'
+    font-style: normal
+    font-weight: 700
+    src: url('../fonts/MuseoSansRounded/351323_5_0.eot')
+    src: url('../fonts/MuseoSansRounded/351323_5_0.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansRounded/351323_5_0.woff2') format('woff2'), url('../fonts/MuseoSansRounded/351323_5_0.woff') format('woff'), url('../fonts/MuseoSansRounded/351323_5_0.ttf') format('truetype')
 
-@font-face
-  font-family: "MuseoSemiBold"
-  src: url('../font/MuseoSansRounded-500.oft')
+@font-face 
+    font-family: 'MuseoSansRounded'
+    font-style: normal
+    font-weight: 500
+    src: url('../fonts/MuseoSansRounded/351323_2_0.eot')
+    src: url('../fonts/MuseoSansRounded/351323_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansRounded/351323_2_0.woff2') format('woff2'), url('../fonts/MuseoSansRounded/351323_2_0.woff') format('woff'), url('../fonts/MuseoSansRounded/351323_2_0.ttf') format('truetype')
 
-@font-face
-  font-family: "MuseoBold"
-  src: url('../font/MuseoSansRounded-700.oft')
+@font-face 
+    font-family: 'MuseoSansRounded'
+    font-style: normal
+    font-weight: 300
+    src: url('../fonts/MuseoSansRounded/351323_0_0.eot')
+    src: url('../fonts/MuseoSansRounded/351323_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansRounded/351323_0_0.woff2') format('woff2'), url('../fonts/MuseoSansRounded/351323_0_0.woff') format('woff'), url('../fonts/MuseoSansRounded/351323_0_0.ttf') format('truetype')
 
-    
-$font-reg: MuseoRegular, sans-serif
+$color-itsallnavy: #284B52
 
-$font-semi: MuseoSemiBold, sans-serif
+$color-peoplepink: #E80D6D
+$color-realteal: #0896AB
+$color-yayyellow: #FDC212
+$color-gogreen: #B0CC3B
 
-$font-bold: MuseoBold, sans-serif
+$color-white: #fff
+$color-ourgrey: #9B9B9B
+$color-ourgreylight: #D9D9D9
+$color-ourgreylighter: #EAEAEA
+$color-ourgreydark: #4A4A4A
 
-$primary-color: #284B52
+$color-statusgreen: #18A957
+$color-statusyellow: #FFBB38
+$color-statusred: #DF1642
+
+$font-reg: MuseoSansRounded
 
 body
-  font: 100% $font-reg
-  color: $primary-color
+  font-family: 'MuseoSansRounded'
+  color: $color-itsallnavy
 
 a
     color: #E80D6D
-    font-family: $font-bold
+    font-weight: 500
 
 h1
-    font-family: $font-bold
     font-size: 3em
     margin: 50px 0
 
 
 h2
-    font-family: $font-semi
+    font-weight: 500
 
 typography span
     display: block
     text-align: center
     font-size: 3em
-
-
-typography large-text-bold
-    font-family: $font-bold
-
-    
-typography large-text-semibold
-    font-family: $font-semi
-
-
-typography large-text-regular
-    font-family: $font-reg
-
 
 typography span.white
     color: #fff
@@ -104,61 +109,63 @@ span.colours
 
 
 .brand-colour-pink
-    background-color: #E80D6D
+    background-color: $color-peoplepink
     color: white
 
 
 .brand-colour-teal
-    background-color: #0896AB
+    background-color: $color-realteal
     color: white
 
 
 .brand-colour-navy
-    background-color: #284B52
+    background-color: $color-itsallnavy
     color: white
 
 
 .brand-colour-white
-    background-color: #fff
-    color: #284B52
+    background-color: $color-white
     border: 1px solid #e1e1e1
 
 
 .brand-colour-green
-    background-color: #B0CC3B
+    background-color: $color-gogreen
     color: white
 
 
 .brand-colour-yellow
-    background-color: #FDC212
+    background-color: $color-yayyellow
     color: white
 
 .brand-colour-grey
-    background-color: #9B9B9B
+    background-color: $color-ourgrey
     color: white
 
 .brand-colour-grey-darker
-    background-color: #D9D9D9
+    background-color: $color-ourgreydark
     color: white
 
 
+.brand-colour-grey-light
+    background-color: $color-ourgreylight
+    color: $color-white
+    
 .brand-colour-grey-lighter
-    background-color: #EAEAEA
-    color: white
-    color: #284B52
+    background-color: $color-ourgreylighter
+    color: $color-ourgreydark
 
 
 .brand-colour-status-green
-    background-color: #18A957
+    background-color: $color-statusgreen
     color: white
 
 .brand-colour-status-yellow
-    background-color: #FFBB38
+    background-color: $color-statusyellow
     color: white
 
 
 .brand-colour-status-red
-    background-color: #DF1642
+    background-color: $color-statusred
     color: white
 
 
@@ -173,6 +180,25 @@ span.graphic
     justify-content: center
     align-content: center
     flex-direction: column
+    
+section
+    margin-bottom: 100px
+    
+span.large-text
+    display: block
+    text-align: center
+    font-size: 3em
+    font-weight: 300
+    
+    &.semi-bold
+        font-weight: 500
+        
+    &.bold
+        font-weight: 700
+    
+    &.white
+        color: $color-white
+        background: $color-ourgreylight
 
 
 /*------------SIDRBAR STYLE----------*/
@@ -254,8 +280,8 @@ p
 
 
 #sidebar ul li.active > a, a[aria-expanded="true"] 
-    font-family: $font-bold
+    font-weight: 500
 
 ul ul a 
-    font-size: 0.9em !important
-    padding-left: 30px !important
+    font-size: 0.9em important
+    padding-left: 30px important
