@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>Group</title>
+    <title>Icon/Close</title>
     <desc>Created with Sketch.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/Close" transform="translate(-3.000000, -3.000000)" fill="#284B52">
-            <g id="Group" transform="translate(3.000000, 3.000000)">
-                <path d="M8.4375,-2.25 L9,-2.25 C9.31066017,-2.25 9.5625,-1.99816017 9.5625,-1.6875 L9.5625,19.6875 C9.5625,19.9981602 9.31066017,20.25 9,20.25 L8.4375,20.25 C8.12683983,20.25 7.875,19.9981602 7.875,19.6875 L7.875,-1.6875 C7.875,-1.99816017 8.12683983,-2.25 8.4375,-2.25 Z" id="Rectangle" transform="translate(8.718750, 9.000000) rotate(-315.000000) translate(-8.718750, -9.000000) "></path>
-                <path d="M8.4375,-2.25 L9,-2.25 C9.31066017,-2.25 9.5625,-1.99816017 9.5625,-1.6875 L9.5625,19.6875 C9.5625,19.9981602 9.31066017,20.25 9,20.25 L8.4375,20.25 C8.12683983,20.25 7.875,19.9981602 7.875,19.6875 L7.875,-1.6875 C7.875,-1.99816017 8.12683983,-2.25 8.4375,-2.25 Z" id="Rectangle" transform="translate(8.718750, 9.000000) rotate(-225.000000) translate(-8.718750, -9.000000) "></path>
-            </g>
+    <g id="Icon/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="24pt-Bounding-Box" opacity="0" fill-rule="nonzero" points="0 0 24 0 24 24 0 24"></polygon>
+        <g id="Group" transform="translate(3.000000, 3.000000)" fill="#284B52">
+            <path d="M8.4375,-2.25 L9,-2.25 C9.31066017,-2.25 9.5625,-1.99816017 9.5625,-1.6875 L9.5625,19.6875 C9.5625,19.9981602 9.31066017,20.25 9,20.25 L8.4375,20.25 C8.12683983,20.25 7.875,19.9981602 7.875,19.6875 L7.875,-1.6875 C7.875,-1.99816017 8.12683983,-2.25 8.4375,-2.25 Z" id="Rectangle" transform="translate(8.718750, 9.000000) rotate(-315.000000) translate(-8.718750, -9.000000) "></path>
+            <path d="M8.4375,-2.25 L9,-2.25 C9.31066017,-2.25 9.5625,-1.99816017 9.5625,-1.6875 L9.5625,19.6875 C9.5625,19.9981602 9.31066017,20.25 9,20.25 L8.4375,20.25 C8.12683983,20.25 7.875,19.9981602 7.875,19.6875 L7.875,-1.6875 C7.875,-1.99816017 8.12683983,-2.25 8.4375,-2.25 Z" id="Rectangle" transform="translate(8.718750, 9.000000) rotate(-225.000000) translate(-8.718750, -9.000000) "></path>
         </g>
     </g>
 </svg>

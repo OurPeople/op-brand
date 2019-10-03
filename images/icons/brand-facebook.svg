@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>facebook-f-brands</title>
+    <title>Icon/--Brand/Facebook</title>
     <desc>Created with Sketch.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/--Brand/Facebook" transform="translate(-6.000000, -2.000000)" fill="#284B52">
-            <g id="facebook-f-brands" transform="translate(6.600000, 2.000000)">
-                <path d="M10.0445313,11.25 L10.6,7.63046875 L7.12695313,7.63046875 L7.12695313,5.28164063 C7.12695313,4.29140625 7.61210938,3.32617188 9.16757813,3.32617188 L10.7464844,3.32617188 L10.7464844,0.24453125 C10.7464844,0.24453125 9.31367188,0 7.94375,0 C5.08359375,0 3.2140625,1.73359375 3.2140625,4.871875 L3.2140625,7.63046875 L0.034765625,7.63046875 L0.034765625,11.25 L3.2140625,11.25 L3.2140625,20 L7.12695313,20 L7.12695313,11.25 L10.0445313,11.25 Z" id="Path"></path>
-            </g>
+    <g id="Icon/--Brand/Facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="24pt-Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+        <g id="facebook-f-brands" transform="translate(6.600000, 2.000000)" fill="#284B52">
+            <path d="M10.0445313,11.25 L10.6,7.63046875 L7.12695313,7.63046875 L7.12695313,5.28164063 C7.12695313,4.29140625 7.61210938,3.32617188 9.16757813,3.32617188 L10.7464844,3.32617188 L10.7464844,0.24453125 C10.7464844,0.24453125 9.31367188,0 7.94375,0 C5.08359375,0 3.2140625,1.73359375 3.2140625,4.871875 L3.2140625,7.63046875 L0.034765625,7.63046875 L0.034765625,11.25 L3.2140625,11.25 L3.2140625,20 L7.12695313,20 L7.12695313,11.25 L10.0445313,11.25 Z" id="Path"></path>
         </g>
     </g>
 </svg>
