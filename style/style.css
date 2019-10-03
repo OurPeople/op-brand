@@ -189,29 +189,33 @@ span.large-text {
     color: #fff;
     background: #D9D9D9; }
 
+/* line 201, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+.row {
+  margin: 50px 0px; }
+
 /*------------SIDRBAR STYLE----------*/
-/* line 204, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 209, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar a {
   color: #E80D6D; }
 
-/* line 208, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 213, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 .wrapper {
   display: flex;
   width: 100%;
   align-items: stretch; }
 
-/* line 214, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 219, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar {
   min-width: 250px;
   max-width: 250px;
   min-height: 100vh;
   transition: all 0.3s; }
 
-/* line 222, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 227, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar.active {
   margin-left: -250px; }
 
-/* line 226, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 231, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar-wrapper {
   position: sticky;
   position: -webkit-sticky;
@@ -220,11 +224,11 @@ span.large-text {
   background: url(../images/sidebar_bg.svg) #EAEAEA no-repeat bottom left;
   background-size: 60%; }
 
-/* line 235, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 240, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 a[data-toggle="collapse"] {
   position: relative; }
 
-/* line 239, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 244, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 .dropdown-toggle::after {
   display: block;
   position: absolute;
@@ -232,45 +236,45 @@ a[data-toggle="collapse"] {
   right: 20px;
   transform: translateY(-50%); }
 
-/* line 247, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 252, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 p {
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em; }
 
-/* line 253, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 258, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar a, a:hover, a:focus {
   color: #E80D6D;
   text-decoration: none;
   transition: all 0.3s; }
 
-/* line 259, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 264, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar .sidebar-header {
   padding: 20px; }
 
-/* line 263, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 268, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar ul.components {
   padding: 20px 0; }
 
-/* line 267, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 272, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar ul p {
   padding: 10px; }
 
-/* line 271, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 276, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar ul li a {
   padding: 10px 10px 10px 20px;
   font-size: 1.1em;
   display: block; }
 
-/* line 276, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 281, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar ul li a:hover {
   color: #FF65A9; }
 
-/* line 280, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 285, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 #sidebar ul li.active > a, a[aria-expanded="true"] {
   font-weight: 500; }
 
-/* line 283, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
+/* line 288, /Users/benjest/Documents/GitHub/op-brand.github.io/style/style.sass */
 ul ul a {
   font-size: 0.9em important;
   padding-left: 30px important; }

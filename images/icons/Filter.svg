@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Funnel/Line" transform="translate(-2.000000, -2.000000)" fill="#284B52">
+            <path d="M20.7487492,2 L3.25148305,2 C2.14113145,2 1.58089706,3.34714847 2.36757677,4.13386725 L9.5,11.2677737 L9.5,18.5625005 C9.49998497,18.9229528 9.65559088,19.2658611 9.92687386,19.5032036 L12.4268739,21.6900396 C13.2252333,22.3885943 14.5,21.8337896 14.5,20.7493365 L14.5,11.2677737 L21.6326164,4.13386725 C22.4177726,3.34875004 21.8613273,2 20.7487492,2 Z M13.2499987,10.75 L13.2499987,20.75 L10.7499987,18.5625005 L10.7499987,10.75 L3.24999867,3.25000003 L20.7499987,3.25000003 L13.2499987,10.75 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
