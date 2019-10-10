@@ -1,0 +1,9 @@
+s3_bucket: brand.ourpeople.com
+cloudfront_distribution_id: EYANB125861KF
+
+site: dist
+index_document: index.html
+
+s3_endpoint: eu-west-2
+
+cloudfront_wildcard_invalidation: true
