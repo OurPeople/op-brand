@@ -88,16 +88,24 @@
            <div class="line"></div>
         </section>
         
-        <section id="section-colours">
+        
+        <section id="section-colours" value="This is a test">
             <h2>Primary Colours</h2>
             
-            <p class="description">
+            <p class="description testy">
                These are key colours used across the brand and particularly in the web and mobile app. 
            </p>
            <div class="row">
-              <span class="colours brand-colour-pink">
+              <span class="copy-me colours brand-colour-pink" data-clipboard-text="#E80D6D" data-toggle="tooltip" data-placement="top">
                 People Pink <br>#E80D6D
                 <span>Used in Calls to action</span>
+                <div class="variation-container">
+                    <span class="copy-me" data-clipboard-text="#facee1" data-toggle="tooltip" data-placement="top"></span>
+                    <span class="copy-me" data-clipboard-text="#f59ec4" data-toggle="tooltip" data-placement="top" ></span>
+                    <span class="copy-me" data-clipboard-text="#f16da7" data-toggle="tooltip" data-placement="top" ></span>
+                    <span class="copy-me" data-clipboard-text="#d00b62" data-toggle="tooltip" data-placement="top" ></span>
+                    <span class="copy-me" data-clipboard-text="#a2094c" data-toggle="tooltip" data-placement="top" ></span>
+                </div>
               </span>
               <span class="colours brand-colour-teal">
                   Real Teal<br>#0896AB
@@ -318,17 +326,48 @@
            
             <!--<p><br>Download the icon pack <a href="images/icons/Icon-pack.zip">here</a>.</p>-->
         </section>
-         
+
      </div> 
-    </div>   
-    
-     
-    
+    </div>    
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Clipboard copying and tooltip -->
+    <script src="js/clipboard.min.js"></script>
+    <script>new ClipboardJS('.copy-me');</script> 
+    
+    <script>
+        $('.copy-me').tooltip({
+          trigger: 'click',
+          placement: 'bottom'
+        });
+
+        function setTooltip(message, targetElement) {
+          $(targetElement).tooltip('hide')
+            .attr('data-original-title', message)
+            .tooltip('show');
+        }
+
+        function hideTooltip(targetElement) {
+          setTimeout(function() {
+            $(targetElement).tooltip('hide');
+          }, 1000);
+        }
+
+        // Clipboard
+
+        var clipboard = new ClipboardJS('.copy-me');
+
+        clipboard.on('success', function(e) {
+          setTooltip('Copied!',e.trigger);
+          hideTooltip(e.trigger);
+        });
+
+    </script>
     
 </body>
 </html>

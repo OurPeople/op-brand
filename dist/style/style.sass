@@ -93,15 +93,32 @@ section .logo.mono
 span.colours
     width: 10rem
     height: 10rem
-    padding: 10px
     margin: 25px
+    padding-top: 2rem
     text-align: center
     font-size: 20px
     border-radius: 10px
+    cursor: pointer
     display: flex
     justify-content: center
     align-content: center
     flex-direction: column
+    
+    .variation-container
+        display: flex
+        flex-direction: row
+        align-items: stretch
+        
+        :first-child
+            border-radius: 0 0 0 10px
+        
+        :last-child
+            border-radius: 0 0 10px
+    
+        span
+            width: 2rem
+            height: 2rem
+            margin: 0
 
 
 .colours span
@@ -112,6 +129,23 @@ span.colours
 .brand-colour-pink
     background-color: $color-peoplepink
     color: white
+    
+    .variation-container
+        
+        span:nth-child(1)
+            background-color: #facee1
+
+        span:nth-child(2)
+            background-color: #f59ec4
+
+        span:nth-child(3)
+            background-color: #f16da7
+
+        span:nth-child(4)
+            background-color: #d00b62
+
+        span:nth-child(5)
+            background-color: #a2094c
 
 
 .brand-colour-teal
