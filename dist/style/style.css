@@ -135,63 +135,108 @@ span.colours {
 .brand-colour-teal {
   background-color: #0896AB;
   color: white; }
+  /* line 157, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-teal .variation-container span:nth-child(1) {
+    background-color: #EDFFFF; }
+  /* line 160, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-teal .variation-container span:nth-child(2) {
+    background-color: #A1FFFF; }
+  /* line 163, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-teal .variation-container span:nth-child(3) {
+    background-color: #55E3F8; }
+  /* line 166, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-teal .variation-container span:nth-child(4) {
+    background-color: #007D92; }
+  /* line 169, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-teal .variation-container span:nth-child(5) {
+    background-color: #004A5F; }
 
-/* line 156, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 173, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-navy {
   background-color: #284B52;
   color: white; }
+  /* line 179, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-navy .variation-container span:nth-child(1) {
+    background-color: #F4FFFF; }
+  /* line 182, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-navy .variation-container span:nth-child(2) {
+    background-color: #A7CAD1; }
+  /* line 185, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-navy .variation-container span:nth-child(3) {
+    background-color: #5B7E85; }
+  /* line 188, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-navy .variation-container span:nth-child(4) {
+    background-color: #0F3239; }
+  /* line 191, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-navy .variation-container span:nth-child(5) {
+    background-color: #00181F; }
 
-/* line 161, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 195, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-white {
   background-color: #fff;
   border: 1px solid #e1e1e1; }
 
-/* line 166, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 200, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-green {
   background-color: #B0CC3B;
   color: white; }
 
-/* line 171, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 205, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-yellow {
   background-color: #FDC212;
   color: white; }
 
-/* line 175, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 209, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-grey {
   background-color: #9B9B9B;
   color: white; }
+  /* line 215, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-grey .variation-container span:nth-child(1) {
+    background-color: #E8E8E8; }
+  /* line 218, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-grey .variation-container span:nth-child(2) {
+    background-color: #CECECE; }
+  /* line 221, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-grey .variation-container span:nth-child(3) {
+    background-color: #B5B5B5; }
+  /* line 224, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-grey .variation-container span:nth-child(4) {
+    background-color: #686868; }
+  /* line 227, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  .brand-colour-grey .variation-container span:nth-child(5) {
+    background-color: #4F4F4F; }
 
-/* line 179, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 230, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-grey-darker {
   background-color: #4A4A4A;
   color: white; }
 
-/* line 184, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 235, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-grey-light {
   background-color: #D9D9D9;
   color: #fff; }
 
-/* line 188, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 239, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-grey-lighter {
   background-color: #EAEAEA;
   color: #4A4A4A; }
 
-/* line 193, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 244, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-status-green {
   background-color: #18A957;
   color: white; }
 
-/* line 197, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 248, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-status-yellow {
   background-color: #FFBB38;
   color: white; }
 
-/* line 202, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 253, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .brand-colour-status-red {
   background-color: #DF1642;
   color: white; }
 
-/* line 207, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 258, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 span.graphic {
   width: 15rem;
   height: 15rem;
@@ -204,53 +249,53 @@ span.graphic {
   align-content: center;
   flex-direction: column; }
 
-/* line 219, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 270, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 span.large-text {
   display: block;
   text-align: center;
   font-size: 3em;
   font-weight: 300; }
-  /* line 225, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  /* line 276, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
   span.large-text.semi-bold {
     font-weight: 500; }
-  /* line 228, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  /* line 279, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
   span.large-text.bold {
     font-weight: 700; }
-  /* line 231, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  /* line 282, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
   span.large-text.white {
     color: #fff;
     background: #D9D9D9; }
 
-/* line 237, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 288, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #section-icons .row {
   margin: 50px 0px; }
-  /* line 240, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+  /* line 291, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
   #section-icons .row img {
     max-height: 70px; }
 
 /*------------SIDRBAR STYLE----------*/
-/* line 248, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 299, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar a {
   color: #E80D6D; }
 
-/* line 252, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 303, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .wrapper {
   display: flex;
   width: 100%;
   align-items: stretch; }
 
-/* line 258, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 309, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar {
   min-width: 250px;
   max-width: 250px;
   min-height: 100vh;
   transition: all 0.3s; }
 
-/* line 266, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 317, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar.active {
   margin-left: -250px; }
 
-/* line 270, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 321, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar-wrapper {
   position: sticky;
   position: -webkit-sticky;
@@ -259,11 +304,11 @@ span.large-text {
   background: url(../images/sidebar_bg.svg) #EAEAEA no-repeat bottom left;
   background-size: 60%; }
 
-/* line 279, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 330, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 a[data-toggle="collapse"] {
   position: relative; }
 
-/* line 283, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 334, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 .dropdown-toggle::after {
   display: block;
   position: absolute;
@@ -271,45 +316,45 @@ a[data-toggle="collapse"] {
   right: 20px;
   transform: translateY(-50%); }
 
-/* line 291, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 342, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 p {
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em; }
 
-/* line 297, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 348, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar a, a:hover, a:focus {
   color: #E80D6D;
   text-decoration: none;
   transition: all 0.3s; }
 
-/* line 303, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 354, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar .sidebar-header {
   padding: 20px; }
 
-/* line 307, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 358, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar ul.components {
   padding: 20px 0; }
 
-/* line 311, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 362, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar ul p {
   padding: 10px; }
 
-/* line 315, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 366, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar ul li a {
   padding: 10px 10px 10px 20px;
   font-size: 1.1em;
   display: block; }
 
-/* line 320, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 371, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar ul li a:hover {
   color: #FF65A9; }
 
-/* line 324, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 375, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 #sidebar ul li.active > a, a[aria-expanded="true"] {
   font-weight: 500; }
 
-/* line 327, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
+/* line 378, /Users/benjest/Documents/GitHub/op-brand.github.io/dist/style/style.sass */
 ul ul a {
   font-size: 0.9em important;
   padding-left: 30px important; }
