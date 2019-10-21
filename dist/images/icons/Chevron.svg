@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon/Chevron Up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Chevron-Up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="24pt-Bounding-Box" opacity="0" fill-rule="nonzero" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M4.12607943,16.1002552 L4.379655,16.3476337 C4.54772503,16.5115731 4.82023807,16.5115731 4.98834397,16.3476337 L12.0000134,9.50832314 L19.0116829,16.3476337 C19.179753,16.5115731 19.452266,16.5115731 19.6203719,16.3476337 L19.8739475,16.1002552 C20.0420175,15.9363158 20.0420175,15.6705002 19.8739475,15.5065608 L12.30434,8.12295457 C12.13627,7.95901514 11.8637569,7.95901514 11.695651,8.12295457 L4.12607943,15.5065608 C3.95797352,15.6705002 3.95797352,15.9363158 4.12607943,16.1002552 Z" id="Path" fill="#284B52"></path>
+    </g>
+</svg>
