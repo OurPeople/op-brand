@@ -17,7 +17,9 @@ jobs:
       with:
         ruby-version: 2.5.x
     - name: "Install s3_website"
-      run: gem install s3_website
+      run: |
+        gem install specific_install
+        gem specific_install https://github.com/ivoanjo/s3_website.git
     - name: "Push to S3"
       run: "s3_website push"
       env:
